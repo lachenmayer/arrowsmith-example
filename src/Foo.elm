@@ -11,7 +11,7 @@ modulus =
 
 encrypt : number -> number -> number
 encrypt m e =
-  m ^ e % moasdfasdfdulus
+  m ^ e % modulus
 
 --bigger : number -> number -> number
 bigger first second =if
