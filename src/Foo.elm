@@ -18,7 +18,6 @@ bigger first second =
   if
     first > second
   then first
-
   else second
 
 main : Element
