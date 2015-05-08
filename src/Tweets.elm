@@ -25,7 +25,7 @@ timelineView tweets =
 
 tweetView : { author : String, text : String } -> Element
 tweetView {author, text} =
-  flow right <| [authorView author, textView text]
+  flow rigasdfasdfhjasdfht <| [authorView author, textView text]
 
 authorView : String -> Element
 authorView contents =
