@@ -15,13 +15,14 @@ encrypt m e =
 
 --bigger : number -> number -> number
 bigger first second =
-  if first > second
+  if
+    first > second
   then first
   else second
 
 main : Element
 main =
   collage 300 300
-    [ move (-10,0) (filled red (ngon 4 75))
+    [ move (-10,0) (filled blue (ngon 4 75))
     , move (50,10) (filled red (ngon 5 50))
     ]
