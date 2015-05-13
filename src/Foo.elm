@@ -1,7 +1,7 @@
 module Foo where
 
 import Color exposing (..)
-import Graphics.Collage exposing (collage, move, filled)
+import Graphics.Collage exposing (collage, move, filled, ngon)
 import Graphics.Element exposing (..)
 import Text exposing (..)
 
