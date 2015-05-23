@@ -25,3 +25,6 @@ main =
     [ move (-10,0) (filled blue (ngon 4 75))
     , move (50,10) (filled red (ngon 5 50))
     ]
+
+someColor = blue
+
