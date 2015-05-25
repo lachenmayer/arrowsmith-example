@@ -13,7 +13,7 @@ fullTimeline =
   timelineView tweets
 
 horseTimeline =
-  userTimeline "horse_ebooks"asdfasdf
+  userTimeline "horse_ebooks"
 
 userTimeline : String -> Element
 userTimeline user =
