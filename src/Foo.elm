@@ -26,4 +26,4 @@ main =
     , move (50,10) (filled red (ngon 5 50))
     ]
 
-someColor = blue
+someColor = green
