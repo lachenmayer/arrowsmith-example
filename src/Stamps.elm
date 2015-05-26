@@ -4,4 +4,4 @@ import Graphics.Element exposing (..)
 import Graphics.Collage exposing (..)
 import Mouse
 
-foo = 153
+main = Signal.map scene clickLocations
