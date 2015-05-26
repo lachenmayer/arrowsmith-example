@@ -7,7 +7,7 @@ import Mouse
 
 main : Signal Element
 main =
-  Signal.map (scene (200, 200)) clickLocations
+  Signal.map (scene (500, 200)) clickLocations
 
 clickLocations : Signal (List (Int,Int))
 clickLocations =
