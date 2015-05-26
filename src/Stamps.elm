@@ -1,5 +1,6 @@
 module Stamps where
 
+import Color
 import Graphics.Element exposing (..)
 import Graphics.Collage exposing (..)
 import Mouse
@@ -16,7 +17,7 @@ scene : (Int,Int) -> List (Int,Int) -> Element
 scene (w,h) locs =
   let drawPentagon (x,y) =
           ngon 5 20
-            |> filled (hsla (toFloat x) 0.9 0.6 0.7)
+            |> filled (Color.hsla (toFloat x) 0.9 0.6 0.7)
             |> move (toFloat x - toFloat w/2, toFloat h/2 - toFloat y)
             |> rotate (toFloat x)
   in
