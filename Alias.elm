@@ -1,3 +1,3 @@
 module Alias where
 
-foo = "bar."
+foo = "bar."asdfasdf
