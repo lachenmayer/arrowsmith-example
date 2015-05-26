@@ -1,3 +1,4 @@
 module Alias where
 
-foo = "bar."asdfasdf
+foo : String
+foo = "bar."
