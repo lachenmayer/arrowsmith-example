@@ -4,4 +4,4 @@ import Graphics.Element exposing (..)
 import Graphics.Collage exposing (..)
 import Mouse
 
-foo = 92
+foo = 82
