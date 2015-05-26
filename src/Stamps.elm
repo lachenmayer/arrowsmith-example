@@ -10,7 +10,7 @@ main =
 
 clickLocations : Signal (List (Int,Int))
 clickLocations =
-  Signal.foldp (::) [] (sampleOn Mouse.clicks Mouse.position)
+  Signal.foldp (::) [] (Signal.sampleOn Mouse.clicks Mouse.position)
 
 scene : (Int,Int) -> List (Int,Int) -> Element
 scene (w,h) locs =
