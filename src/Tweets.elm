@@ -29,7 +29,7 @@ tweetView {author, text} =
 
 authorView : String -> Element
 authorView contents =
-  textbox 200 50 "#ccf" contents
+  textbox 200 50 "#ccc" contents
 
 textView : String -> Element
 textView contents =
