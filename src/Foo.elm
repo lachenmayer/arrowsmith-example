@@ -28,4 +28,4 @@ main =
 
 someColor = green
 
-foo = red
+foo = blue
