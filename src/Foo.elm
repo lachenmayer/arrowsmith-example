@@ -27,3 +27,5 @@ main =
     ]
 
 someColor = green
+
+foo = red
